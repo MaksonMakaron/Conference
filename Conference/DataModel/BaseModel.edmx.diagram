@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="32792709f50c4623aabf5e3d766783f6" Name="Diagram1">
+        <EntityTypeShape EntityType="ConferenceModel.Action" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Activity" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.City" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Country" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Direction" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Event" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Gender" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Jury" Width="1.5" PointX="7.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.Role" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.sysdiagram" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConferenceModel.User" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="ConferenceModel.FK_Action_Direction" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_Activity_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_Jury_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_Event_City" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_User_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_Event_Direction" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_User_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_Jury_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.ActionOfUser" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.ActivityOfUser" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.DirectionOfUser" ManuallyRouted="false" />
+        <AssociationConnector Association="ConferenceModel.Winner" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

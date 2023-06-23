@@ -1,0 +1,13 @@
+﻿<Window x:Class="Conference.AppWindows.ModeratorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conference.AppWindows"
+        mc:Ignorable="d"
+        Title="Окно модератора" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BtnBack" Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnBack_Click"/>
+        <TextBlock FontSize="30" TextAlignment="Center" VerticalAlignment="Center" Text="Извините, данный функционал в разработке :("/>
+    </Grid>
+</Window>
